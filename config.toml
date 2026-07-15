@@ -9,7 +9,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 "github:MorpheApp/morphe-patches" = []
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
@@ -18,7 +18,7 @@ arch = "both"
 "github:MorpheApp/morphe-patches" = []
 
 [Reddit]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
@@ -445,7 +445,7 @@ changelog-keywords = ["Proton VPN"]
 "gitlab:Paresh-Maheshwari/paresh-patches" = []
 
 [Telegram]
-enabled = false
+enabled = true
 brand = "paresh"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
@@ -485,7 +485,7 @@ changelog-keywords = ["VN"]
 "gitlab:Paresh-Maheshwari/paresh-patches" = []
 
 ["1.1.1.1"]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/cloudflare/1-1-1-1-faster-safer-internet/"
 uptodown-dlurl = "https://1-1-1-1.en.uptodown.com/android"
@@ -585,7 +585,7 @@ changelog-keywords = ["Photo Editor"]
 "github:rushiranpise/morphe-patches" = []
 
 [Proton-VPN_rushi]
-enabled = false
+enabled = true
 brand = "rushi"
 app-name = "Proton VPN"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/"
@@ -596,7 +596,7 @@ changelog-keywords = ["Proton VPN"]
 "github:rushiranpise/morphe-patches" = []
 
 [Psiphon-VPN]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/psiphon-inc/psiphon-pro-the-internet-freedom-vpn/"
 uptodown-dlurl = "https://psiphon-pro.en.uptodown.com/android"
@@ -759,7 +759,7 @@ changelog-keywords = ["Tumblr"]
 "github:arandomhooman/hoomans-morphe-patches" = []
 
 [Twitch]
-enabled = false
+enabled = true
 brand = "hooman"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
