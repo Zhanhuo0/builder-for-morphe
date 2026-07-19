@@ -1,9 +1,30 @@
+# ---------------------------------------------------------
+# Copyright (C) 2026 krvstek
+# 
+# DO NOT REMOVE OR ALTER THIS COPYRIGHT HEADER.
+# This file is part of uni-apks.
+# Canonical source: https://github.com/krvstek/uni-apks
+#
+# Licensed under the GNU GPLv3. You may modify this file,
+# but you MUST keep this original copyright notice intact
+# and prominently state any changes made.
+# See the AUTHORS file in the root directory for details.
+# ---------------------------------------------------------
+
 import os
 import sys
 from typing import Never
 
 IS_GITHUB = os.getenv("GITHUB_ACTIONS") == "true"
+INTERRUPTED = False
 
+
+def is_interrupted() -> bool:
+    return INTERRUPTED
+
+def mark_interrupted() -> None:
+    global INTERRUPTED
+    INTERRUPTED = True
 
 def _log(color: str, symbol: str, msg: str, gh_level: str | None = None) -> None:
     if IS_GITHUB and gh_level:

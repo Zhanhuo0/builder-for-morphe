@@ -1,3 +1,17 @@
+# ---------------------------------------------------------
+# Copyright (C) 2026 krvstek (Original Author)
+# Copyright (C) 2026 The uni-apks Contributors (Modifications)
+# 
+# DO NOT REMOVE OR ALTER THIS COPYRIGHT HEADER.
+# This file is part of uni-apks.
+# Canonical source: https://github.com/krvstek/uni-apks
+#
+# Licensed under the GNU GPLv3. You may modify this file,
+# but you MUST keep this original copyright notice intact
+# and prominently state any changes made.
+# See the AUTHORS file in the root directory for details.
+# ---------------------------------------------------------
+
 import re  # noqa: I001
 from pathlib import Path
 from urllib.parse import urljoin
@@ -15,14 +29,13 @@ class APKMirrorError(ScraperError):
 class APKMirrorScraper(BaseScraper):
     def __init__(self, net: NetworkManager) -> None:
         super().__init__(net)
-        self._resp_html: str = ""
         self._category: str = ""
         self._release_urls: dict[str, str] = {}
 
     def fetch_metadata(self, url: str) -> AppMetadata:
-        self._resp_html = self.net.get(url)
+        resp_html = self.net.get(url)
         self._category = url.rstrip("/").split("/")[-1]
-        m = re.search(r"play\.google\.com/store/apps/details\?id=([\w.]+)", self._resp_html)
+        m = re.search(r"play\.google\.com/store/apps/details\?id=([\w.]+)", resp_html)
         if not m:
             raise APKMirrorError("Package name not found")
 
