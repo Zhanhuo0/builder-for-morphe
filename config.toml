@@ -434,7 +434,7 @@ changelog-keywords = ["Plus Messenger"]
 "gitlab:Paresh-Maheshwari/paresh-patches" = []
 
 [Proton-VPN_paresh]
-enabled = false
+enabled = true
 brand = "paresh"
 app-name = "Proton VPN"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/"
