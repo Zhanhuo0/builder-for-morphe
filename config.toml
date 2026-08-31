@@ -10,7 +10,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 "github:MorpheApp/morphe-patches" = []
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
@@ -18,7 +18,7 @@ arch = "both"
 "github:MorpheApp/morphe-patches" = []
 
 [Reddit]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Reddit.patches]
@@ -35,7 +35,7 @@ patcher-args = "-e 'Change header' -Ocustom=icons/YouTube/header -e 'Custom bran
 "github:MorpheApp/morphe-patches" = { version = "dev" }
 
 [YT-Music-Experimental]
-enabled = false
+enabled = true
 brand = "morphe-dev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
@@ -46,7 +46,7 @@ patcher-args = "-e 'Change header' -Ocustom=icons/Music/header -e 'Custom brandi
 "github:MorpheApp/morphe-patches" = { version = "dev" }
 
 [Reddit-Experimental]
-enabled = false
+enabled = true
 brand = "morphe-dev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 version = "exp"
@@ -74,7 +74,7 @@ patcher-args = "-e 'Theme' -Oamoled=true"
 "github:crimera/piko" = []
 
 [Google-Photos]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 changelog-keywords = ["Photos"]
@@ -83,7 +83,7 @@ changelog-keywords = ["Photos"]
 "github:rushiranpise/morphe-patches" = []
 
 [Messenger]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-technologies-llc/messenger/"
 arch = "both"
@@ -93,7 +93,7 @@ changelog-keywords = ["Messenger"]
 "github:rushiranpise/morphe-patches" = []
 
 [Amazon-Shopping]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-shopping/"
 changelog-keywords = ["Amazon"]
@@ -102,7 +102,7 @@ changelog-keywords = ["Amazon"]
 "github:rushiranpise/morphe-patches" = []
 
 [Block-Blast]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/hungrystudio/block-blast-puzzle-games/"
 changelog-keywords = ["Block Blast"]
@@ -111,7 +111,7 @@ changelog-keywords = ["Block Blast"]
 "github:rushiranpise/morphe-patches" = []
 
 [Telegram]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 changelog-keywords = ["Telegram"]
@@ -120,7 +120,7 @@ changelog-keywords = ["Telegram"]
 "github:rushiranpise/morphe-patches" = []
 
 [Duolingo]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 changelog-keywords = ["Duolingo"]
@@ -129,7 +129,7 @@ changelog-keywords = ["Duolingo"]
 "github:rushiranpise/morphe-patches" = []
 
 [Adobe-Acrobat] 
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-acrobat/"
 changelog-keywords = ["Acrobat"]
@@ -138,7 +138,7 @@ changelog-keywords = ["Acrobat"]
 "github:rushiranpise/morphe-patches" = []
 
 [Proton-VPN]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/"
 changelog-keywords = ["Proton"]
