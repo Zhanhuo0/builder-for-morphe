@@ -10,7 +10,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 "github:MorpheApp/morphe-patches" = []
 
 [YT-Music]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
@@ -18,7 +18,7 @@ arch = "both"
 "github:MorpheApp/morphe-patches" = []
 
 [Reddit]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Reddit.patches]
@@ -111,7 +111,7 @@ changelog-keywords = ["Block Blast"]
 "github:rushiranpise/morphe-patches" = []
 
 [Telegram]
-enabled = false
+enabled = true
 brand = "rushi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram-web-version/"
 changelog-keywords = ["Telegram"]
